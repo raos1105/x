@@ -1,0 +1,11 @@
+name: pre-release
+
+on:
+  release:
+    types: [prereleased]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "pre"
