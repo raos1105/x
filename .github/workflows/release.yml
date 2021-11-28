@@ -8,7 +8,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/workflows/ci.yml
+      - uses: raos1105/x/.github/workflows/ci.yml@master
   publish:
     runs-on: ubuntu-latest
     steps:
